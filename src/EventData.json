@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "title": "Chicago Blues Festival",
+        "description": "The world's largest free blues festival, featuring top-tier blues musicians in Millennium Park.",
+        "startDate": "2025-06-06",
+        "startTime": "12:00",
+        "endTime": "22:00",
+        "imageUrl": "https://en.wikipedia.org/wiki/File:Chicago_Blues_Festival_2018.jpg",
+        "location": "Millennium Park, Chicago, IL",
+        "price": 0
+    },
+    {
+        "id": 2,
+        "title": "Printers Row Lit Fest",
+        "description": "A celebration of books and literary culture with over 200 booksellers in the heart of Chicago.",
+        "startDate": "2025-06-07",
+        "startTime": "10:00",
+        "endTime": "18:00",
+        "imageUrl": "https://www.printersrowlitfest.org/images/PLF_Logo.png",
+        "location": "Dearborn Street, Chicago, IL",
+        "price": 0
+    },
+    {
+        "id": 3,
+        "title": "Wells Street Art Festival",
+        "description": "An outdoor art fair featuring local artists, live music, and food in the Old Town neighborhood.",
+        "startDate": "2025-06-08",
+        "startTime": "11:00",
+        "endTime": "19:00",
+        "imageUrl": "https://www.oldtownchicago.org/wp-content/uploads/2019/05/WSAF-Logo-2019.jpg",
+        "location": "Wells Street, Chicago, IL",
+        "price": 0
+    },
+    {
+        "id": 4,
+        "title": "Run for the Zoo",
+        "description": "A 5K and 10K run through Lincoln Park Zoo to support wildlife conservation efforts.",
+        "startDate": "2025-06-15",
+        "startTime": "7:30",
+        "endTime": "11:00",
+        "imageUrl": "https://www.lincolnparkzoo.org/wp-content/uploads/2020/02/Run-for-the-Zoo-2020.jpg",
+        "location": "Lincoln Park Zoo, Chicago, IL",
+        "price": 35
+    },
+    {
+        "id": 5,
+        "title": "Heatwave Music Festival",
+        "description": "A two-day music festival featuring artists like Griz, Loud Luxury, and Slander at Huntington Bank Pavilion.",
+        "startDate": "2025-06-21",
+        "startTime": "12:00",
+        "endTime": "23:00",
+        "imageUrl": "https://www.experism.com/chicago/june/images/heatwave-music-festival.jpg",
+        "location": "Huntington Bank Pavilion, Chicago, IL",
+        "price": 109
+    },
+    {
+        "id": 6,
+        "title": "Stray Kids World Tour",
+        "description": "K-pop sensation Stray Kids performs live at Wrigley Field as part of their 'dominATE' world tour.",
+        "startDate": "2025-06-26",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "imageUrl": "https://us.trip.com/events/3776711-2025-06-illinois-collection/images/stray-kids.jpg",
+        "location": "Wrigley Field, Chicago, IL",
+        "price": 150
+    },
+    {
+        "id": 7,
+        "title": "Bud Billiken Parade and Picnic",
+        "description": "The largest African-American parade in the U.S., celebrating youth and education with a festive picnic.",
+        "startDate": "2025-08-09",
+        "startTime": "10:00",
+        "endTime": "16:00",
+        "imageUrl": "https://en.wikipedia.org/wiki/File:Bud_Billiken_Parade_2018.jpg",
+        "location": "Dr. Martin Luther King Jr. Drive, Chicago, IL",
+        "price": 0
+    },
+    {
+        "id": 8,
+        "title": "Ruido Fest",
+        "description": "A Latin American alternative music festival featuring artists from across the continent in Addams/Medill Park.",
+        "startDate": "2025-07-11",
+        "startTime": "12:00",
+        "endTime": "23:00",
+        "imageUrl": "https://en.wikipedia.org/wiki/File:Ruido_Fest_2019.jpg",
+        "location": "Addams/Medill Park, Chicago, IL",
+        "price": 75
+    },
+    {
+        "id": 9,
+        "title": "Windy City Smokeout",
+        "description": "A BBQ, craft beer, and country music festival at the United Center, featuring top country artists.",
+        "startDate": "2025-07-10",
+        "startTime": "17:00",
+        "endTime": "23:00",
+        "imageUrl": "https://thehauteseeker.com/wp-content/uploads/2025/05/Windy-City-Smokeout.jpg",
+        "location": "United Center, Chicago, IL",
+        "price": 60
+    },
+    {
+        "id": 10,
+        "title": "Crosstown Classic: Cubs vs. White Sox",
+        "description": "The annual rivalry series between Chicago's two Major League Baseball teams at Wrigley Field and Guaranteed Rate Field.",
+        "startDate": "2025-07-25",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "imageUrl": "https://www.experism.com/chicago/june/images/crosstown-classic.jpg",
+        "location": "Wrigley Field, Chicago, IL",
+        "price": 50
+    },
+    {
+        "id": 11,
+        "title": "Nancy Faust Returns to Sox Park",
+        "description": "Legendary White Sox organist Nancy Faust returns to perform at select Sunday games during the 125th anniversary season.",
+        "startDate": "2025-05-11",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "imageUrl": "https://www.southsidesox.com/wp-content/uploads/2025/05/Nancy_Faust_Sox_Park.jpg",
+        "location": "Guaranteed Rate Field, Chicago, IL",
+        "price": 25
+    },
+
+    {
+        "id": 12,
+        "title": "PFL 7: MMA Semifinals",
+        "description": "Watch the Professional Fighters League's Middleweight and Lightweight semifinal bouts at Wintrust Arena.",
+        "startDate": "2025-06-27",
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Professional_Fighters_League_logo.svg/1200px-Professional_Fighters_League_logo.svg.png",
+        "location": "Wintrust Arena, Chicago, IL",
+        "price": 50
+    },
+    {
+        "id": 13,
+        "title": "Dave Matthews Band Concert",
+        "description": "Experience the eclectic sounds of the Dave Matthews Band live at Huntington Bank Pavilion.",
+        "startDate": "2025-06-27",
+        "startTime": "19:30",
+        "endTime": "22:30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dave_Matthews_Band_2018.jpg/1200px-Dave_Matthews_Band_2018.jpg",
+        "location": "Huntington Bank Pavilion, Chicago, IL",
+        "price": 50
+    },
+    {
+        "id": 14,
+        "title": "NASCAR Chicago Street Race",
+        "description": "Witness high-speed action as NASCAR drivers race through the streets of downtown Chicago in this inaugural event.",
+        "startDate": "2025-07-05",
+        "startTime": "12:00",
+        "endTime": "18:00",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/NASCAR_logo.svg/1200px-NASCAR_logo.svg.png",
+        "location": "Grant Park, Chicago, IL",
+        "price": 75
+    },
+    {
+        "id": 15,
+        "title": "Summer Saturday Fireworks at Navy Pier",
+        "description": "Enjoy a spectacular fireworks display over Lake Michigan every Saturday night throughout the summer.",
+        "startDate": "2025-06-07",
+        "startTime": "21:00",
+        "endTime": "21:30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Navy_Pier_Fireworks_Chicago.jpg/1200px-Navy_Pier_Fireworks_Chicago.jpg",
+        "location": "Navy Pier, Chicago, IL",
+        "price": 0
+    }
+]
