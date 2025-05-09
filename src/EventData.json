@@ -6,7 +6,7 @@
         "startDate": "2025-06-06",
         "startTime": "12:00",
         "endTime": "22:00",
-        "imageUrl": "https://en.wikipedia.org/wiki/File:Chicago_Blues_Festival_2018.jpg",
+        "imageUrl": "./images/chicago-blues-festival.png",
         "location": "Millennium Park, Chicago, IL",
         "price": 0
     },
@@ -17,7 +17,7 @@
         "startDate": "2025-06-07",
         "startTime": "10:00",
         "endTime": "18:00",
-        "imageUrl": "https://www.printersrowlitfest.org/images/PLF_Logo.png",
+        "imageUrl": "./images/printers-row-lit-fest.webp",
         "location": "Dearborn Street, Chicago, IL",
         "price": 0
     },
@@ -28,7 +28,7 @@
         "startDate": "2025-06-08",
         "startTime": "11:00",
         "endTime": "19:00",
-        "imageUrl": "https://www.oldtownchicago.org/wp-content/uploads/2019/05/WSAF-Logo-2019.jpg",
+        "imageUrl": "./images/wells-street-art-festival.jpg",
         "location": "Wells Street, Chicago, IL",
         "price": 0
     },
@@ -39,7 +39,7 @@
         "startDate": "2025-06-15",
         "startTime": "7:30",
         "endTime": "11:00",
-        "imageUrl": "https://www.lincolnparkzoo.org/wp-content/uploads/2020/02/Run-for-the-Zoo-2020.jpg",
+        "imageUrl": "./images/run-for-the-zoo.png",
         "location": "Lincoln Park Zoo, Chicago, IL",
         "price": 35
     },
@@ -50,18 +50,18 @@
         "startDate": "2025-06-21",
         "startTime": "12:00",
         "endTime": "23:00",
-        "imageUrl": "https://www.experism.com/chicago/june/images/heatwave-music-festival.jpg",
+        "imageUrl": "./images/heatwave-music-festival.jpg",
         "location": "Huntington Bank Pavilion, Chicago, IL",
         "price": 109
     },
     {
         "id": 6,
         "title": "Stray Kids World Tour",
-        "description": "K-pop sensation Stray Kids performs live at Wrigley Field as part of their 'dominATE' world tour.",
+        "description": "K-pop sensations Stray Kids perform live at Wrigley Field as part of their 'dominATE' world tour.",
         "startDate": "2025-06-26",
         "startTime": "19:00",
         "endTime": "22:00",
-        "imageUrl": "https://us.trip.com/events/3776711-2025-06-illinois-collection/images/stray-kids.jpg",
+        "imageUrl": "./images/stray-kids-dominATE-tour.webp",
         "location": "Wrigley Field, Chicago, IL",
         "price": 150
     },
@@ -72,7 +72,7 @@
         "startDate": "2025-08-09",
         "startTime": "10:00",
         "endTime": "16:00",
-        "imageUrl": "https://en.wikipedia.org/wiki/File:Bud_Billiken_Parade_2018.jpg",
+        "imageUrl": "./images/BUD.webp",
         "location": "Dr. Martin Luther King Jr. Drive, Chicago, IL",
         "price": 0
     },
@@ -83,7 +83,7 @@
         "startDate": "2025-07-11",
         "startTime": "12:00",
         "endTime": "23:00",
-        "imageUrl": "https://en.wikipedia.org/wiki/File:Ruido_Fest_2019.jpg",
+        "imageUrl": "./images/RUIDOFEST.jpg",
         "location": "Addams/Medill Park, Chicago, IL",
         "price": 75
     },
@@ -94,7 +94,7 @@
         "startDate": "2025-07-10",
         "startTime": "17:00",
         "endTime": "23:00",
-        "imageUrl": "https://thehauteseeker.com/wp-content/uploads/2025/05/Windy-City-Smokeout.jpg",
+        "imageUrl": "./images/windy-city-smokeout.jpg",
         "location": "United Center, Chicago, IL",
         "price": 60
     },
@@ -105,7 +105,7 @@
         "startDate": "2025-07-25",
         "startTime": "19:00",
         "endTime": "22:00",
-        "imageUrl": "https://www.experism.com/chicago/june/images/crosstown-classic.jpg",
+        "imageUrl": "./images/sox-vs-cubs.jpg",
         "location": "Wrigley Field, Chicago, IL",
         "price": 50
     },
@@ -116,7 +116,7 @@
         "startDate": "2025-05-11",
         "startTime": "13:00",
         "endTime": "16:00",
-        "imageUrl": "https://www.southsidesox.com/wp-content/uploads/2025/05/Nancy_Faust_Sox_Park.jpg",
+        "imageUrl": "./images/nancy-faust.webp",
         "location": "Guaranteed Rate Field, Chicago, IL",
         "price": 25
     },
@@ -128,7 +128,7 @@
         "startDate": "2025-06-27",
         "startTime": "19:00",
         "endTime": "22:00",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Professional_Fighters_League_logo.svg/1200px-Professional_Fighters_League_logo.svg.png",
+        "imageUrl": "./images/mma-semifinals.jpg",
         "location": "Wintrust Arena, Chicago, IL",
         "price": 50
     },
@@ -139,7 +139,7 @@
         "startDate": "2025-06-27",
         "startTime": "19:30",
         "endTime": "22:30",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dave_Matthews_Band_2018.jpg/1200px-Dave_Matthews_Band_2018.jpg",
+        "imageUrl": "./images/dave-matthews-band.jpg",
         "location": "Huntington Bank Pavilion, Chicago, IL",
         "price": 50
     },
@@ -150,7 +150,7 @@
         "startDate": "2025-07-05",
         "startTime": "12:00",
         "endTime": "18:00",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/NASCAR_logo.svg/1200px-NASCAR_logo.svg.png",
+        "imageUrl": "./images/nascar-chicago-streetrace.jpg",
         "location": "Grant Park, Chicago, IL",
         "price": 75
     },
@@ -161,7 +161,7 @@
         "startDate": "2025-06-07",
         "startTime": "21:00",
         "endTime": "21:30",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Navy_Pier_Fireworks_Chicago.jpg/1200px-Navy_Pier_Fireworks_Chicago.jpg",
+        "imageUrl": "./images/Navy-Pier-Fireworks.webp",
         "location": "Navy Pier, Chicago, IL",
         "price": 0
     }
