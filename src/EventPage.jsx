@@ -2,11 +2,10 @@ import { useState } from 'react'
 // import './Home.css'
 import EventData from "./EventData.json"
 
-function EventPage({ event, closeEventPage }) {
-
+function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents }) {
+    
     return (
         <>
-            {/* INSERT HEADER HERE */}
             <div>
                 <button className="closeEvent" onClick={closeEventPage}>Back to Event Gallery</button>
             </div>
@@ -19,6 +18,9 @@ function EventPage({ event, closeEventPage }) {
                             className="event-image"
                         />
                         <h3>{event.title}</h3>
+                        <div className='description'>
+                            <p>{event.description}</p>
+                        </div>
 
                         <div className="event-data">
                             <div className="start-date">
@@ -31,14 +33,17 @@ function EventPage({ event, closeEventPage }) {
                                 <h5>{event.startTime} to {event.endTime}</h5>
                             </div>
                             <div className="price">
-                                <h5> &#36; {event.price}</h5> {/*&#36; if $ not working*/}
+                                {event.price != 0 ? (<h5> &#36; {event.price}</h5>) : (<h5> Free </h5>)}
                             </div>
+                        </div>
+                        <div className="buy-ticket">
+                            <button className="view-event" onClick={() => viewEvent(event)}>View Event</button>
                         </div>
                     </div>
                 )
-                 : (
-                <p>No Events found</p>
-                )}
+                    : (
+                        <p>Requested Event Not Found</p>
+                    )}
             </div>
         </>
     )
