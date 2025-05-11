@@ -5,6 +5,7 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
 
     let price = 0.00
 
+    // Remove event from current cart, updates price
     function removeFromCart (event){
         let inCart = selectedEvents.some(inCart => inCart.id === event.id)
         if (inCart) {
@@ -19,6 +20,7 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
         priceCalc()
     }
 
+    // display for total price of all events currently in cart
     function priceCalc(){
         selectedEvents.forEach(event => {
             price = price + event.price
@@ -32,6 +34,7 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
         return(
             <>
             <div className="Cart">
+            {/* if any events are in cart, display them */}
             {selectedEvents.length > 0 ? (
                 selectedEvents.map((event) => (
                     <div key={event.id} className="event">
@@ -59,16 +62,19 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
                                 {event.price != 0 ? (<h5> &#36; {event.price}</h5>) : (<h5> Free </h5>)}
                             </div>
                         </div>
+                        {/* Allow removal of item from cart */}
                         <div className="remove-ticket-wrapper">
                             <button className="remove-ticket" onClick={() => removeFromCart(event)}>Remove From Cart</button>
                         </div>
                     </div>
                 )))
+                // Else, notify user of empty cart
                     : (
                         <p>Hmm... No events in cart. <br/> Lets add some, yea?</p>
                     )}
             </div>
             <hr/>
+        
             <div className='price-calculator'>
                 <p>Total Price: ${price.toFixed(2)}</p>
             </div>

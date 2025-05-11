@@ -9,6 +9,7 @@ function Header({cartToggle, cartView}) {
                 <h1>Chivent</h1>
                 <nav>
                     <div className="cart-toggle-wrapper">
+                        {/* Cart items visibility toggle */}
                         <button className="toggleCart" onClick={cartToggle}>
                             {cartView ? (console.log(cartView),
                                 <p>Close Cart</p>) : (

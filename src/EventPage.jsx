@@ -1,11 +1,13 @@
-import { useState } from 'react'
-// import './Home.css'
-import EventData from "./EventData.json"
+/*
+* Template page for displaying a specific event
+* Uses Event useState to select the event who's data is to be displayed
+*/
 
 function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents, reformatDate }) {
-
+    
     let inCart = selectedEvents.some(inCart => inCart.id === event.id)
 
+    // Allows single button to Add AND Remove event from cart
     const toggleEventInCart = () => {
         if (inCart) {
             let updatedEvents = selectedEvents.filter(cartEvent => cartEvent.id !== event.id)
@@ -50,6 +52,7 @@ function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents, r
                                 {event.price != 0 ? (<h5> &#36; {event.price}</h5>) : (<h5> Free </h5>)}
                             </div>
                         </div>
+                        {/* Dual use cart toggle button (add/remove from cart) */}
                         <div className="cart-Toggle-wrapper">
                             <button className="cart-Toggle" key={inCart} onClick={toggleEventInCart}>
                                 {inCart ? (<p>Remove From Cart</p>) : (<p>Add to Cart</p>)}
