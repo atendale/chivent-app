@@ -6,14 +6,16 @@ function Header({cartToggle, cartView}) {
     return (
         <>
             <header>
-                <h1>Chivent</h1>
+                <div>
+                   <h1>CHIVENT</h1> 
+                </div>
                 <nav>
                     <div className="cart-toggle-wrapper">
                         {/* Cart items visibility toggle */}
                         <button className="toggleCart" onClick={cartToggle}>
                             {cartView ? (console.log(cartView),
-                                <p>Close Cart</p>) : (
-                                <p>Open Cart</p>)}
+                                <p>Back</p>) : (
+                                <p>Cart</p>)}
                         </button>
                     </div>
                 </nav>

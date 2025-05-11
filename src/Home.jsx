@@ -41,8 +41,6 @@ function Home() {
     return (
         <>
             <Header cartToggle={cartToggle} cartView={cartView} />
-            <h1>Chivent</h1>
-            <h2>Upcoming Events:</h2>
 
             {/* If cart clicked, display cart */}
             {cartView ? (
@@ -54,6 +52,7 @@ function Home() {
                 ) : (
                     // Else, show main page event gallery
                     <div className="gallery">
+                        <h2>Upcoming Events:</h2>
                         {EventData.length > 0 ? (
                             EventData.map((event) => (
                                 <div key={event.id} className="event">
