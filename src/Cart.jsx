@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import EventData from "./EventData.json"
-// Add more tickets function
 
 function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
+
+    let price = 0.00
 
     function removeFromCart (event){
         let inCart = selectedEvents.some(inCart => inCart.id === event.id)
@@ -15,7 +16,16 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
             (setSelectedEvents((prevEvents) => [...prevEvents, event]))
             inCart = true
         }
+        priceCalc()
     }
+
+    function priceCalc(){
+        selectedEvents.forEach(event => {
+            price = price + event.price
+        });
+    }
+
+    priceCalc()
 
     if (cartView == true) {
         console.log('Cart Opened')
@@ -57,7 +67,10 @@ function Cart({selectedEvents, setSelectedEvents, cartView, setCartView}) {
                     : (
                         <p>Hmm... No events in cart. <br/> Lets add some, yea?</p>
                     )}
-
+            </div>
+            <hr/>
+            <div className='price-calculator'>
+                <p>Total Price: ${price.toFixed(2)}</p>
             </div>
             </>
         )

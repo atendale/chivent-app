@@ -52,7 +52,7 @@ function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents, r
                         </div>
                         <div className="cart-Toggle-wrapper">
                             <button className="cart-Toggle" key={inCart} onClick={toggleEventInCart}>
-                                {inCart ? (<p>Remove From Cart</p>) : (<p>Remove From Cart</p>)}
+                                {inCart ? (<p>Remove From Cart</p>) : (<p>Add to Cart</p>)}
                             </button>
                         </div>
                     </div>
