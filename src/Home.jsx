@@ -45,8 +45,8 @@ function Home() {
             {/* If cart clicked, display cart */}
             {cartView ? (
                 <Cart selectedEvents={selectedEvents} setSelectedEvents={setSelectedEvents} cartView={cartView} setCartView={setCartView} />
-            ) : 
-            // Else if specific event page requested => display 
+            ) :
+                // Else if specific event page requested => display 
                 (onEventPage ? (
                     <EventPage event={onEventPage} closeEventPage={closeEventPage} selectedEvents={selectedEvents} setSelectedEvents={setSelectedEvents} reformatDate={reformatDate} />
                 ) : (
@@ -61,8 +61,8 @@ function Home() {
                                         alt={event.title}
                                         className="event-image"
                                     />
-                                    <h3>{event.title}</h3>
                                     <div className="event-data">
+                                        <h3>{event.title}</h3>
                                         <div className="start-date">
                                             <h4>{reformatDate(event.startDate)}</h4>
                                         </div>
@@ -79,6 +79,7 @@ function Home() {
                             // If no events in database 
                             <p>No Events found</p>
                         )}
+                        <div className="bottom-shadow"></div>
                     </div>
                 )
                 )}
