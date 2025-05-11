@@ -22,6 +22,7 @@ function Home() {
     }
 
     function cartToggle() {
+        closeEventPage()
         cartView ? (setCartView(false)) : (setCartView(true))
         console.log('cart toggled')
     }
