@@ -2,8 +2,22 @@ import { useState } from 'react'
 // import './Home.css'
 import EventData from "./EventData.json"
 
-function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents }) {
-    
+function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents, reformatDate }) {
+
+    let inCart = selectedEvents.some(inCart => inCart.id === event.id)
+
+    const toggleEventInCart = () => {
+        if (inCart) {
+            let updatedEvents = selectedEvents.filter(cartEvent => cartEvent.id !== event.id)
+            setSelectedEvents(updatedEvents)
+            inCart = false
+        }
+        else {
+            (setSelectedEvents((prevEvents) => [...prevEvents, event]))
+            inCart = true
+        }
+    }
+
     return (
         <>
             <div>
@@ -24,7 +38,7 @@ function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents })
 
                         <div className="event-data">
                             <div className="start-date">
-                                <h4>{event.startDate}</h4>
+                                <h4>{reformatDate(event.startDate)}</h4>
                             </div>
                             <div className="location">
                                 <h4>{event.location}</h4>
@@ -36,8 +50,10 @@ function EventPage({ event, closeEventPage, selectedEvents, setSelectedEvents })
                                 {event.price != 0 ? (<h5> &#36; {event.price}</h5>) : (<h5> Free </h5>)}
                             </div>
                         </div>
-                        <div className="buy-ticket">
-                            <button className="view-event" onClick={() => viewEvent(event)}>View Event</button>
+                        <div className="cart-Toggle-wrapper">
+                            <button className="cart-Toggle" key={inCart} onClick={toggleEventInCart}>
+                                {inCart ? (<p>Remove From Cart</p>) : (<p>Remove From Cart</p>)}
+                            </button>
                         </div>
                     </div>
                 )
