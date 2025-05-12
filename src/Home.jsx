@@ -53,6 +53,7 @@ function Home() {
                     // Else, show main page event gallery
                     <div className="gallery">
                         <h2>Upcoming Events:</h2>
+                        <hr className='gallery-hr' />
                         {EventData.length > 0 ? (
                             EventData.map((event) => (
                                 <div key={event.id} className="event">
