@@ -38,7 +38,7 @@ header{
   display: flex;
   flex-direction: row;
   font-family: 'Carter One', serif;
-  box-shadow: 0 8px 15px rgba(29, 26, 33, .5);
+  box-shadow: 0 8px 15px rgba(20, 52, 102, 0.5);
 }
 
 header h1{
@@ -63,7 +63,7 @@ header button{
 }
 
 @media only screen and (max-width: 400px) {
-  .cartButton p {
+  .view-cart {
     display: none;
   }
   header h1{
@@ -92,7 +92,7 @@ header button{
   font-size: medium;
 }
 
-header button {
+button {
   background-color: var(--chic-turqoise);
   font-weight: bold;
   color: var(--offwhite);
@@ -103,7 +103,7 @@ header button {
   margin-right: 1rem;
 }
 
-header button:hover {
+button:hover {
   background-color: var(--offwhite);
   color: var(--chic-turqoise);
   border: .25rem solid var(--chic-turqoise);
@@ -113,9 +113,9 @@ header button:hover {
 /*------------------- HOME GALLERY -------------------*/
 
 h2{
-  color: var(--offwhite);
+  color: var(--chic-turqoise);
   font-family: "Helvetica";
-  font-size: 8vw;
+  font-size: 50px;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@ h2{
 }
 
 body{
-  background-color: var(--off-black);
+  background-color: var(--offwhite);
 }
 
 .gallery{
@@ -145,12 +145,14 @@ body{
   border-radius: .5rem;
   overflow: hidden;
   width: 90vw;
+  box-shadow: 0 5px 10px rgba(110, 136, 177, 0.5);
 }
 
 .event-image {
   object-fit: cover;
   height: 100%;
   width: 30vw; 
+  max-width: 300px;
 }
 
 .event-data {
@@ -163,6 +165,7 @@ body{
 
 h3{
   color: var(--chic-turqoise);
+  font-size: larger;
 }
 
 .start-date{
@@ -173,12 +176,17 @@ h3{
 .view-event-wrapper {
   object-fit: cover;
   height: 100%;
+  width: 20vw; 
+}
+
+.view-event-wrapper:hover, .view-event:hover{
   width: 30vw; 
 }
+
 .view-event{
   object-fit: cover;
   height: 100%;
-  width: 30vw; 
+  width: 20vw; 
 }
 
 .view-event-wrapper button {
@@ -192,10 +200,10 @@ h3{
   font-size: medium;
 }
 
-.view-event-wrapper button:hover {
+/* .view-event-wrapper button:hover {
   background-color: var(--offwhite);
   color: var(--chic-turqoise);
-}
+} */
 
 /*------------- MISC DECOR ------------*/
 ::-webkit-scrollbar {
@@ -213,12 +221,12 @@ h3{
 
 .bottom-shadow {
   position: fixed;
-  background-color: var(--off-black);
+  background-color: var(--chic-blue);
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20px;
-  pointer-events: none; /* Allows clicks through */
-  box-shadow: 0 -20px 15px rgba(0, 0, 0, 0.2); /* upward shadow */
+  height: 5px;
+  pointer-events: none; 
+  box-shadow: 0 -10px 15px rgba(49, 104, 192, 0.9); 
   z-index: 1000;
 }
